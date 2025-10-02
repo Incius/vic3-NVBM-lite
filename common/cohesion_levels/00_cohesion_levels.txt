@@ -3,7 +3,7 @@
 
 	modifier = {
 		power_bloc_leverage_generation_mult = -0.5
-		power_bloc_mandate_progress_mult = -0.6
+		power_bloc_mandate_progress_mult = -1.0
 	}
 
 	background_texture = "gfx/interface/icons/diplomatic_action_icons/diplomatic_action_backgrounds/subject_liberty_low.dds"
@@ -17,7 +17,7 @@ cohesion_level_low = {
 
 	modifier = {
 		power_bloc_leverage_generation_mult = -0.2
-		power_bloc_mandate_progress_mult = -0.3
+		power_bloc_mandate_progress_mult = -0.75
 	}
 
 	background_texture = "gfx/interface/icons/diplomatic_action_icons/diplomatic_action_backgrounds/subject_liberty_low.dds"
@@ -30,7 +30,7 @@ cohesion_level_moderate = {
 	threshold = 40
 
 	modifier = {
-		power_bloc_mandate_progress_mult = -0.1
+		power_bloc_mandate_progress_mult = -0.25
 	}
 
 	background_texture = "gfx/interface/icons/diplomatic_action_icons/diplomatic_action_backgrounds/subject_liberty_moderate.dds"
@@ -41,7 +41,6 @@ cohesion_level_high = {
 
 	modifier = {
 		power_bloc_leverage_generation_mult = 0.1
-		power_bloc_mandate_progress_mult = 0.10
 	}
 
 	background_texture = "gfx/interface/icons/diplomatic_action_icons/diplomatic_action_backgrounds/subject_liberty_moderate.dds"
