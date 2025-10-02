@@ -1,8 +1,8 @@
 {
-  "name" : "NVBM(1.9 lite)",
+  "name" : "NVBM(1.10 Lite)",
   "id" : "",
-  "version" : "4.0",
-  "supported_game_version" : "1.9.*",
+  "version" : "5.0",
+  "supported_game_version" : "1.10.*",
   "picture": "thumbnail.png",
   "short_description" : "",
   "tags" : ["Graphics","Economy And Buildings","Fixes"],
