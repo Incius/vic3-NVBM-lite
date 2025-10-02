@@ -1,0 +1,151 @@
+﻿absolved_obligation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+}
+
+modifier_jap_terakoya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.25 # changed from 0.25 in vanilla
+	state_peasants_education_access_add = 0.05 # 0.20 in vanilla
+	country_tech_research_speed_mult = -0.10 # -0.10 in vanilla
+}
+
+modifier_legacy_of_terakoya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.15 # changed from 0.25 in vanilla
+	country_tech_research_speed_mult = 0.15 
+	country_bureaucracy_mult = -0.05
+}
+
+slave_state_migration_debuff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_migration_pull_mult = -0.40
+}
+
+decembrist_suppression_failure = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_ig_landowners_approval_add = -10
+	interest_group_ig_devout_approval_add = -10
+}
+decembrist_suppression_success = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_ig_landowners_approval_add = 20
+	interest_group_ig_devout_approval_add = 10
+	political_movement_radicalism_add = -0.50
+}
+state_of_war_pl = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_law_enactment_time_mult = 0.25
+	country_legitimacy_base_add = -15
+	interest_group_approval_add = -5
+}
+perm_prestige_mod = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_prestige_add = 20
+}
+
+party_exploit_fixer = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 20
+}
+
+france_baby_bust = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_birth_rate_mult  = -0.30
+}
+
+france_early_game_birth_fix = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_birth_rate_mult  = 0.20
+}
+
+southern_planter_victory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_ig_landowners_pol_str_mult = 0.33
+}
+
+junker_victory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_ig_landowners_pol_str_mult = 0.33
+	interest_group_ig_armed_forces_pol_str_mult = 0.33
+}
+
+constitutional_crisis = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_law_enactment_time_mult = 0.4
+}
+
+pol_internal_focus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_add = 200
+}
+
+chinese_opium_addiction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_standard_of_living_add = -5
+	state_mortality_mult = 0.04
+	country_legitimacy_base_add = -25
+	state_radicals_from_political_movements_mult = 0.50
+	country_prestige_mult = -0.25
+	unit_morale_loss_mult = 0.75
+}
+chinese_economic_stagnation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	building_coal_mine_throughput_add = -1
+	building_iron_mine_throughput_add = -0.25
+	building_lead_mine_throughput_add = -0.5
+	building_sulfur_mine_throughput_add = -0.5
+	state_market_access_price_impact = -0.15
+	state_capitalists_investment_pool_efficiency_mult = -0.75
+	state_shopkeepers_investment_pool_efficiency_mult = -0.75
+	country_government_dividends_efficiency_add = -0.10
+}
+eight_banners = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	building_training_rate_mult = -0.9
+	state_loyalists_from_political_movements_mult = 0.25
+}
+modifier_agricultural_econ_agri_debuff = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_market_access_price_impact = -0.15
+	building_group_bg_plantations_throughput_add = -0.25
+}
+modifier_china_subsistence_agri = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_aristocrats_investment_pool_contribution_add = -0.20
+	state_clergymen_investment_pool_contribution_add = -0.20
+	state_farmers_investment_pool_contribution_add = -0.05
+	country_government_dividends_efficiency_add = -0.10
+}
+modifier_inward_china = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	country_tech_research_speed_mult = -0.15
+	country_tech_spread_mult = -0.30
+	country_trade_route_competitiveness_mult = -0.5
+	interest_group_ig_devout_approval_add = 3
+	country_acceptance_shared_cultural_trait_add = -20
+}
+modifier_bannermen_decadence = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	country_military_wages_mult = 0.25
+	country_officers_pol_str_mult = 0.25
+}
+modifier_banner_system = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_offense_mult = -0.25
+	unit_defense_mult = -0.25
+}
+modifier_green_standard_army = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_turmoil_effects_mult = -0.10
+	interest_group_ig_armed_forces_pol_str_mult = 0.10
+	state_mortality_turmoil_mult = 0.004
+}
+
+game_master = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+}
+
+modifier_GM_tax_waste = {
+	icon = gfx\interface\icons\timed_modifier_icons\modifier_fist_negative.dds
+	state_tax_waste_add = 0.10
+}
