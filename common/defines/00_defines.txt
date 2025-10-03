@@ -636,7 +636,7 @@ NEconomy = {
 	COLLECTIVIZATION_DEBT_RATIO = 0.5					# Ratio of the country max debt can be used for collectivizing
 	MIN_COLLECTIVIZATION_BUDGET = 1000000				# Min size of a collectivizing budget
 	DYNAMIC_INDUSTRY_CHARTER = no						# Do we want to use dynamic industry charter instead of scripted ones
-	COMPANY_INFLUENCE_LEVEL_STEPS = { 10 50 100 250 500 1000 1500 2500 5000 10000 }
+	COMPANY_INFLUENCE_LEVEL_STEPS = { 10000 10001 10002 10003 10004 10005 10006 10007 10008 10009  }
 	COMPANY_CHARTER_AUTHORITY_COST = 100				# Cost of establishing a company charter
 
 	# Currently only used in loc, not logic
