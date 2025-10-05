@@ -105,7 +105,7 @@ pm_steel_frame_buildings = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.00
+			state_construction_mult = 0.005
 		}
 	}
 }
