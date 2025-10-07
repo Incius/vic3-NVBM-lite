@@ -137,6 +137,7 @@ je_sick_man_syria = {
 						exists = c:EGY
 						c:EGY = {
 							is_subject_of = ROOT
+							is_subject_type = subject_type_puppet
 						}
 					}
 					AND = {
@@ -191,6 +192,7 @@ je_sick_man_egypt = {
 				exists = c:EGY
 				c:EGY = {
 					is_subject_of = ROOT
+					is_subject_type = subject_type_puppet
 				}
 			}
 			AND = {
