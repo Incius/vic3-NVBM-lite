@@ -1656,7 +1656,7 @@ principle_ideological_truth_3 = {
 		country_party_whip_impact_add = 0.1
 
 		# Members Legitimacy can't fall under 25
-		country_legitimacy_min_add = 25
+		country_legitimacy_add = 15
 	}
 
 	ai_weight = {
