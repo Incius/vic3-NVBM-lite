@@ -251,24 +251,6 @@
 				}
 			}
 		}
-		else = {
-			multiply = {
-				desc = "SLAVE_STATE"
-				value = 1.0
-				if = {
-					limit = {
-						state = { is_slave_state = yes }
-						OR = {
-							is_pop_type = aristocrats
-							is_pop_type = clergymen
-							is_pop_type = officers
-							is_pop_type = farmers
-						}
-					}
-					subtract = 0.5
-				}
-			}
-		}
 
 		if = {
 			limit = {
