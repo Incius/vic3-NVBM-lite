@@ -133,7 +133,6 @@ law_sakoku_borders = {
 		country_migration_restrictiveness_add = 101
 		country_disallow_agitator_invites_bool = yes
 		country_leverage_resistance_mult = 0.5
-		interest_group_ig_armed_forces_pol_str_mult = 0.25
 	}
 
 	progressiveness = -50
