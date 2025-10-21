@@ -30,7 +30,7 @@ cohesion_level_moderate = {
 	threshold = 40
 
 	modifier = {
-		power_bloc_mandate_progress_mult = -0.25
+		power_bloc_leverage_generation_mult = -0.1
 	}
 
 	background_texture = "gfx/interface/icons/diplomatic_action_icons/diplomatic_action_backgrounds/subject_liberty_moderate.dds"
